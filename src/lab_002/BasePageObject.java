@@ -17,8 +17,7 @@ public class BasePageObject extends Driver{
     }
 
     public void closePopUpWindow(String selector){
-        getDriver().findElement(By.xpath(selector)).click();
-        //getDriver().findElement(By.cssSelector(selector)).click();
+        getDriver().findElement(By.cssSelector(selector)).click();
     }
 
     public void inputText(String text, String selector){

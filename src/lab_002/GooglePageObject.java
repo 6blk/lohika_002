@@ -10,8 +10,7 @@ import java.util.List;
  */
 public class GooglePageObject extends BasePageObject {
     private String navigateURL = "https://www.google.com.ua/";
-    private String popUpSelector = ".//*[@id='gbw']/div/div/div[2]/div[4]/div/a";
-    //private String popUpSelector = ".gb_Td.gb_xc";
+    private String popUpSelector = ".gb_Td.gb_xc";
     private String inputTextSelector = "lst-ib";
     private String searchButtonSelector = ".lsb";
     private String searchResultLinks = ".r>a";

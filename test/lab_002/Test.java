@@ -13,8 +13,8 @@ public class Test extends Driver{
 
     @org.junit.Test
     public void testGoogleSearch() throws InterruptedException{
-        //String searchStr = "Бонд";
-        String searchStr = "sdfndfkglvdslkvsk";
+        String searchStr = "Бонд";
+        //String searchStr = "sdfndfkglvdslkvsk";
         //String searchStr = "Samsung";
         String siteURL = "wikipedia.org";
 
