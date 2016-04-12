@@ -1,0 +1,6 @@
+.DS_STORE
+.idea/
+*.iml
+out/
+tests/
+src/lab_002/googleSearch.java
